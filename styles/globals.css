@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .background-size {
+    background-size: 400%;
+  }
+}
+
 html,
 body {
   padding: 0;
